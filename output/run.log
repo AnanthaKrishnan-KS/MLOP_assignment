@@ -1,0 +1,8 @@
+2026-06-08 07:38:10,005 [INFO] Job started
+2026-06-08 07:38:10,006 [INFO] Config loaded — version=v1, seed=42, window=5
+2026-06-08 07:38:10,049 [INFO] Dataset loaded — 10000 rows, columns: ['"timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd"']
+2026-06-08 07:38:10,053 [INFO] Rolling mean computed with window=5
+2026-06-08 07:38:10,056 [INFO] Signal generated: 1 where close > rolling_mean, else 0
+2026-06-08 07:38:10,057 [INFO] Metrics — rows_processed=9996, signal_rate=0.4991, latency_ms=52
+2026-06-08 07:38:10,063 [INFO] Metrics written to /app/output/metrics.json
+2026-06-08 07:38:10,064 [INFO] Job completed successfully
